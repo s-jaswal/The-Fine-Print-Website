@@ -240,12 +240,13 @@ img {
     top: 0;
     display: inline-block;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.541);
+    background-color: white);
+    text-align: center;
 }
 
 .navBar a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 
@@ -256,7 +257,7 @@ i {
 
 i:hover,
 a:hover {
-    color: orange;
+    color: rgb(23, 23, 158);
     cursor: pointer;
 }
 
@@ -281,7 +282,7 @@ a {
 
 a:hover,
 a:focus {
-    color: orange;
+    color: rgb(23, 23, 158);
     text-decoration: underline
 }
 
