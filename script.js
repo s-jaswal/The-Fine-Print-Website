@@ -1,4 +1,4 @@
-// about us page js 
+// about us page 
 document.querySelectorAll(".home-scroll_section").forEach((section) => {
     let childTriggers = section.querySelectorAll(".home-scroll_text-item");
     let childTargets = section.querySelectorAll(".home-scroll_img-item");
