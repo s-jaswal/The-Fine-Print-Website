@@ -841,3 +841,101 @@ ul {
 
 
 /* style for quote carousel end */
+
+/* cw + sr cards css start */
+
+.card-container {
+    display: flex;
+    /* Enable flexbox */
+    justify-content: center;
+    /* Center the cards horizontally */
+    flex-wrap: wrap;
+    /* Allow wrapping to the next line if needed */
+    gap: 20px;
+    /* Space between cards */
+    padding: 20px;
+    /* Optional padding around the container */
+}
+
+
+.card {
+    width: 18rem;
+    /* Set card width */
+    border: 1px solid #ddd;
+    /* Light border */
+    border-radius: 0.5rem;
+    /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    overflow: hidden;
+    /* Ensure child elements don’t overflow */
+    background-color: #fff;
+    /* White background */
+    margin: 10px;
+    /* Optional margin for cards */
+
+}
+
+.card-body {
+    padding: 1rem;
+    /* Padding inside the card */
+}
+
+.card-title {
+    font-size: 1.25rem;
+    /* Title size */
+    margin-bottom: 0.5rem;
+    /* Spacing below title */
+}
+
+.card-subtitle {
+    font-size: 1rem;
+    /* Subtitle size */
+    color: #6c757d;
+    /* Secondary text color */
+    margin-bottom: 1rem;
+    /* Spacing below subtitle */
+}
+
+.card-text {
+    font-size: 0.875rem;
+    /* Body text size */
+    margin-bottom: 1rem;
+    /* Spacing below text */
+    color: #212529;
+    /* Primary text color */
+}
+
+.card-link {
+    display: inline-block;
+    /* Make links inline-block */
+    margin-right: 1rem;
+    /* Space between links */
+    color: #007bff;
+    /* Link color */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.card-link:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
+
+
+/* cw + sr cards css end */
+
+
+.block {
+    background-color: rgb(215, 214, 214);
+    color: rgb(10, 10, 108);
+    padding: 10%;
+
+}
+
+.h5 {
+    text-align: center;
+    color: white;
+
+
+}
