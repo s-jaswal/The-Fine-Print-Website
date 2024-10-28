@@ -287,13 +287,13 @@ a {
     grid-row-end: span 1;
 }
 
-/* navbar styling start */
+* navbar styling start */
+
 /* nav bar styling */
 .navBar {
     margin-bottom: 20px;
     width: 100%;
     height: auto;
-    position: fixed;
     left: 0;
     top: 0;
     display: inline-block;

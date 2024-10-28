@@ -29,9 +29,6 @@ h3 {
     font-family: 'Rowdies', cursive;
 }
 
-h4 {
-    font-family: 'Rowdies', cursive;
-}
 
 p {
     font-family: 'Rowdies', cursive;
@@ -600,7 +597,7 @@ a:hover {
 
 /* reviews color title*/
 .orange {
-    color: rgb(211, 147, 29);
+    color: rgb(9, 9, 89));
     font-style: italic;
 }
 
@@ -844,7 +841,3 @@ ul {
 
 
 /* style for quote carousel end */
-
-.align-items-center {
-    align-items: center;
-}
