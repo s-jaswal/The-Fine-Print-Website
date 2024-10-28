@@ -136,19 +136,18 @@ footer {
 
 .column-1 {
     flex: 1;
-    background-color: rgb(247, 179, 90);
+    background-color: gray;
     /* Background color for the first column */
     padding: 300px;
     /* Add some padding for spacing */
     margin-top: 100px;
     margin-bottom: 100px;
-    size: 100px;
 
 }
 
 .column-2 {
     flex: 1;
-    background-color: rgb(102, 50, 50);
+    background-color: rgb(17, 17, 93);
     /* Background color for the second column */
     padding: 300px;
     /* Add some padding for spacing */
@@ -179,7 +178,6 @@ img {
 
 /* Style for the container */
 .container {
-    max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -830,4 +828,23 @@ ul {
     width: auto;
     /* Maintain aspect ratio */
     display: block;
+}
+
+/* style for quote carousel start */
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #f6d365;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, white, rgb(20, 20, 94))
+}
+
+
+/* style for quote carousel end */
+
+.align-items-center {
+    align-items: center;
 }
