@@ -30,21 +30,6 @@ body {
     letter-spacing: 0em;
 }
 
-h1 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-h2 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-p {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    line-height: 1.4;
-}
 
 a {
     font-size: 1em;
@@ -98,13 +83,12 @@ a {
 }
 
 .home-content_heading {
-    max-width: 6em;
+    font-size: 50px;
 }
 
 .home-content_p {
-    max-width: 30em;
     margin-top: 30px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .home-content_image {
@@ -307,6 +291,8 @@ block {
 
 h1 {
     font-family: 'Rowdies', cursive;
+    text-align: center;
+    padding: 2%;
 
 }
 
