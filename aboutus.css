@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Founders Grotesk';
-    src: url('https://assets.website-files.com/63f818b5f015858056117a09/63f818b5f015851928117a14_founders-grotesk-medium.woff2') format('woff2');
+    src: url('theproblem.jpg') format('woff2');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Founders Grotesk';
-    src: url('https://assets.website-files.com/63f818b5f015858056117a09/63f818b5f01585b042117a16_founders-grotesk-semibold.woff2') format('woff2');
+    src: url('aboutus1.jpg') format('woff2');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: 'Founders Grotesk';
-    src: url('https://assets.website-files.com/63f818b5f015858056117a09/63f818b5f015857510117a15_founders-grotesk-bold.woff2') format('woff2');
+    src: url('impact.jpeg') format('woff2');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
