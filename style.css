@@ -18,6 +18,7 @@ block {
 
 h1 {
     font-family: 'Rowdies', cursive;
+    color: rgb(3, 3, 79);
 
 }
 
@@ -108,7 +109,7 @@ footer {
 /* for the established in 2018 part */
 .highlight {
     font-weight: bold;
-    font-size: 1.9em;
+    font-size: 1.2em;
     /* Adjust the size as needed */
     margin-top: 80px;
 }
@@ -929,7 +930,7 @@ ul {
 .block {
     background-color: rgb(215, 214, 214);
     color: rgb(10, 10, 108);
-    padding: 10%;
+    padding: 2%;
 
 }
 
