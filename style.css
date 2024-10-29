@@ -226,6 +226,50 @@ img {
 
 /* navbar styling start */
 /* nav bar styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    /* Vertically center items */
+    justify-content: space-between;
+    /* Space out items */
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+    background-color: #fff;
+    /* Navbar background color */
+}
+
+.logo-container {
+    margin-right: 20px;
+    /* Space between logo and links */
+}
+
+.nav-links {
+    list-style: none;
+    /* Remove default list styles */
+    display: flex;
+    /* Align links in a row */
+    gap: 15px;
+    /* Space between links */
+}
+
+.nav-links li {
+    display: inline;
+    /* Ensure list items are inline */
+}
+
+.nav-links a {
+    text-decoration: none;
+    /* Remove underline */
+    color: #000;
+    /* Link color */
+}
+
+.nav-links a:hover {
+    color: #007bff;
+    /* Change color on hover */
+}
+
+
 .navBar {
     margin-bottom: 20px;
     width: 100%;
@@ -593,6 +637,14 @@ a:hover {
     }
 }
 
+.card-img-top {
+    width: 100%;
+    /* Make the image take the full width of the card */
+    height: 200px;
+    /* Set a fixed height for all images */
+    object-fit: cover;
+    /* Maintain aspect ratio while covering the area */
+}
 
 /* cards css end */
 
@@ -813,7 +865,6 @@ ul {
     /* Add padding around the logo */
     background-color: #f0f0f0;
     /* Background color for the logo area */
-    border-radius: 50%;
     /* Make the container round if desired */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     /* Add a shadow effect */

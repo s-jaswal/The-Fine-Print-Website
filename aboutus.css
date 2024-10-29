@@ -1087,7 +1087,6 @@ ul {
     /* Add padding around the logo */
     background-color: #f0f0f0;
     /* Background color for the logo area */
-    border-radius: 50%;
     /* Make the container round if desired */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     /* Add a shadow effect */
